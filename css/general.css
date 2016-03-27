@@ -1,0 +1,437 @@
+@charset "UTF-8";
+/* Shawarma Express */
+
+@-moz-viewport { width: device-width; scale: 1;}
+@-ms-viewport { width: device-width; scale: 1;}
+@-webkit-viewport { width: device-width; scale: 1;}
+@-o-viewport { width: device-width; scale: 1;}
+@viewport { width: device-width; scale: 1;}
+	
+html{
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-o-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+	overflow-x: hidden;
+	width: 100%;
+}
+
+body {
+	position: relative;
+	top: 0;
+	background: url('../images/bg.png') repeat right top;
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.2rem;
+	overflow-x: hidden;
+	display: block;
+}
+
+.img-flex {
+	display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.main {
+	width: 90%;
+	margin: 50px auto;
+}
+
+/*------------------------------------------------ Header*/
+
+header {
+	background-color: #000;
+	width: 100%;
+	overflow: hidden;
+}
+
+
+.hide-text {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+#fixed-nav {
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	background-color: #000;
+	z-index: 1000;
+}
+
+.nav {
+	 text-align: center;
+}
+
+.nav li,
+.nav li:link,
+.nav li:visited {
+	display: inline-block;
+	font-size: 18px;
+	text-align: center;
+	padding: 10px 6px;
+	font-family: 'Roboto Slab', Serif;
+}
+
+.nav a, 
+.nav a:link {
+	text-decoration: none;
+	color: #fff;
+	
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active{
+	color: #E9B74B;
+	
+}
+
+
+
+/* ----------------------------------------------------------------------------------------- Hero */
+
+.home-logo {
+	width: 90%;
+	max-width: 33rem;
+	margin: 5rem auto;
+}
+
+#home {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	overflow: auto;
+	background-image: url(../images/home.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	padding: 2rem 1rem;
+	margin-top: 78px;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 2rem;
+	text-transform: uppercase;
+	line-height: 2rem;
+	margin: 1rem 2rem;
+}
+
+
+
+/*------------------------------------------------------------------------------------- Main */
+
+.chef {
+	border-radius: 250px;
+	max-width: 300px;
+}
+
+.about {
+	margin-bottom: 40px;
+}
+
+.section-line {
+	color: #000;
+	background-color: #000;
+	height: 5px;
+}
+
+.about p{
+	text-align: center;
+	vertical-align: middle;
+	font-size: 19px;
+	line-height: 1.4;
+	font-family: 'Roboto Slab', Serif;
+	font-weight: 700;
+	padding-top: 25px;
+}
+
+.google-maps {
+	position: relative;
+	padding-bottom: 100%;
+	height: 0rem;
+	overflow: hidden;
+ }
+
+.google-maps iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
+}
+
+.contact-us {
+	padding-top: 40px;
+	font-weight: 500;
+}
+
+p {
+	margin-bottom: 1rem;
+	font-size: 17px;
+	line-height: 1.5rem;
+}
+
+.div-margin {
+	margin: 2rem 1.5rem;
+	position: relative;
+}
+
+.anchor{
+  display: block;
+  height: 36px; /*same height as header*/
+  margin-top: -36px; /*same height as header*/
+  visibility: hidden;
+}
+
+.about-p {
+	margin: 8rem 1.5rem 2rem;
+
+}
+
+.bg-img {
+	min-height: 300px;
+}
+
+.bg {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.youtube {
+	position: relative;
+	padding-bottom: 50%;
+	height: 0rem;
+	overflow: hidden;
+	margin-bottom: 40px;
+ }
+
+.youtube iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
+}
+
+/*-------------------------------------------------------------- Contact*/
+
+.contact {
+	text-transform: uppercase;
+	font-size: 1rem;
+	line-height: 1.4rem;
+	font-weight: 400;
+}
+
+/* --------------------------------------------------------------------- Content */
+
+.wrapper {
+	overflow: hidden; /* Will wrap around its children when they float */ 
+	padding-top: 4.5rem;
+}
+
+#content1, /* # hooks an ID */
+#content2,
+#content3,
+#content4 {
+	clear: both;   /* Will stack after each other if their children have floats */
+	padding: 6rem 10.25%;
+}
+
+
+/* --------------------------------------------------------------------- Footer */
+
+.footer-main {
+	width: 100%;
+}
+
+
+.footer{
+	background-color: #000;
+	padding: 1rem;
+	color: #fff;
+	font-size: 20px;
+	width: 100%;
+}
+
+.copyright {
+	text-align: left;
+}
+
+.hours {
+	margin-bottom: 20px;
+}
+
+.footer p {
+	margin-bottom:  0;
+}
+
+.footer a {
+	text-decoration: underline;
+	color: #fff;
+	line-height: 2rem;
+	padding-left: 13px;
+	font-size: 16px;
+}	
+
+.footer i {
+	margin-right: 8px;
+}
+
+@media only screen and (min-width: 28.5625em){ /*457*/
+	#home {
+		margin-top: 39px;
+	}
+}
+
+@media only screen and (min-width: 30em){ /*480*/
+	.mobile-contact {
+		display: none;
+	}
+
+	.desktop-contact {
+		display: block;
+	}
+
+	.bg-img {
+		min-height: 400px;
+	}
+
+	.copyright {
+		text-align: right;
+	}
+
+	.google-maps {
+		padding-bottom: 60%;
+ 	}
+}
+
+@media only screen and (min-width: 38em){ /*608*/
+
+	h2 {
+		font-size: 3.5rem;
+		font-weight: 300;
+		top: 3%;
+	}
+
+
+	.about-circle {
+		background-color: rgba(163,122,0,0.5);
+		border-radius: 400px;
+		width: 370px;
+		height: 370px;
+		position: absolute;
+		right: -4rem;
+		top: 0rem;
+	}
+
+	.about-text {
+		display: block;
+		color: #fff;
+		text-align: center;
+		line-height: 20px;
+		vertical-align: middle;
+		margin: 4rem 4rem;
+	}
+
+	.home-logo {
+		margin: 10rem auto;
+	}
+
+	.contact-us {
+		padding-top: 0;
+		padding-left: 40px;
+
+	}
+
+	.google-maps {
+		padding-bottom: 50%;
+ 	}
+
+}
+
+@media only screen and (min-width: 60em){ /*960*/
+
+	.main,
+	.footer-main {
+		width: 70%;
+	}
+
+	.footer-main {
+		margin: 0 auto;
+	}
+
+	.div-margin {
+		margin: 3rem 3rem;
+	}
+
+	.bg-img {
+		min-height: 450px;
+	}
+
+	.contact-us {
+		padding-left: 40px;
+		padding-top: 0;
+
+	}
+
+	.home-logo {
+		margin: 10rem auto;
+	}
+
+	.google-maps {
+		padding-bottom: 40%;
+ 	}
+
+}
+
+@media only screen and (min-width: 90em){ /*1440*/
+	.main,
+	.footer-main {
+		width: 60%;
+	}
+
+	.div-margin{
+		margin: 3rem auto;
+		width: 50rem;
+	}
+
+	.bg-img {
+		min-height: 500px;
+		background-position: left center;
+	}
+
+	h2 {
+		font-size: 4rem;
+	}
+
+	.home-logo {
+		margin: 11rem auto;
+	}
+
+	.contact-inline {
+		display: inline-block;
+		margin: 3rem 6rem;
+	}
+
+
+}
+
+@media only screen and (min-width: 100em){ /*1600*/
+	.home-logo {
+		margin: 15rem auto;
+	}
+}
+
+
