@@ -26,7 +26,7 @@ img {
 	width: 100%;
 	height: 100%;
 	overflow: auto;
-	background-image: url(../images/menu/falafel-plate-notext.jpg);
+	background-image: url(../images/menu/potato-salad-notext.jpg);
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -38,7 +38,7 @@ img {
 }
 
 .catering-hero {
-		background-image: url(../images/menu/vegan-sandwiches.jpg);
+		background-image: url(../images/menu/vegan-deal-notext.jpg);
 
 }
 

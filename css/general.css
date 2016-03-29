@@ -100,8 +100,8 @@ header {
 }
 
 .shadow {
-	-webkit-filter: drop-shadow( 0px 0px 5px rgba(0,0,0,.4) );
-    filter: drop-shadow( 0px 0px 5px rgba(0,0,0,.4) ); 
+	-webkit-filter: drop-shadow( 0px 0px 10px rgba(0,0,0,.4) );
+    filter: drop-shadow( 0px 0px 10px rgba(0,0,0,.4) ); 
 }
 
 #home {
@@ -109,7 +109,7 @@ header {
 	height: 100%;
 	text-align: center;
 	overflow: auto;
-	background-image: url(../images/menu/shawarma-deals.jpg);
+	background-image: url(../images/menu/shawarma-deal-notext.jpg);
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
