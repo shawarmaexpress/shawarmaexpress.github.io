@@ -16,6 +16,9 @@
 		<meta name="handheldfriendly" content="true">
 		<meta name="mobileoptimized" content="240">
 		<meta name="viewport" content="width=device-width,initial-scale=1" >
+
+		<link rel="stylesheet" href="flexslider/flexslider.css" type="text/css">
+		
 </head>
 
 <body id="top">
@@ -28,7 +31,7 @@
 					<li><a href="menu2.html">Menu</a></li>
 					<li><a href="catering.html">Catering</a></li>
 					<li><a href="#contact-us">Contact Us</a></li>
-					<li><a href=#>Order Now</a></li>
+					<li><a href="order-now.html">Order Now</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -38,7 +41,7 @@
 	<div class="hero">
 		<div id="home" > 
 			
-			<img class="home-logo" src="images/home-logo.svg" alt="Shawarma logo"> 
+			<img class="home-logo shadow" src="images/home-logo.svg" alt="Shawarma logo"> 
 		 
 		</div>
 	</div>
@@ -82,13 +85,39 @@
 					</div>
 
 					<div>
-						<p>Shawarmaexpress@gmail.com<br>119 Slater St, Ottawa<br>ON K1P 5H2<br>(613) 232-2189</p>
+						<p>Shawarmaexpress@gmail.com<br>119 Slater St, Ottawa<br>ON K1P 5H2<br>(613) 232 0606</p>
 					</div>
 				</div>
 
 			</div>
 
 	</div>
+
+<!-- 	<div class="unit xs-1 s-1 m-1 l-1">
+		<div class="flexslider">
+		  <ul class="slides">
+		    <li>
+		      <img src="flexslider/flex-imgs/falafel-tray.jpg" />
+		    </li>
+		    <li>
+		      <img src="flexslider/flex-imgs/falafel-tray.jpg" />
+		    </li>
+		    <li>
+		      <img src="flexslider/flex-imgs/falafel-tray.jpg" />
+		    </li>
+		     <li>
+		      <img src="flexslider/flex-imgs/falafel-tray.jpg" />
+		    </li>
+		     <li>
+		      <img src="flexslider/flex-imgs/falafel-tray.jpg" />
+		    </li>
+		     <li>
+		      <img src="flexslider/flex-imgs/falafel-tray.jpg" />
+		    </li>
+		  </ul>
+		</div>
+	</div> -->
+
 
 <!-- ///////////////////////////////////////////////////////////////////////// Footer -->
 
@@ -110,7 +139,13 @@
 
 	</footer>
 
-	<script src="js/nav.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="flexslider/jquery.flexslider.js"></script>
+	<script type="text/javascript" charset="utf-8">
+	  $(window).load(function() {
+	    $('.flexslider').flexslider();
+	  });
+	</script>
 
 </body>
 </html>

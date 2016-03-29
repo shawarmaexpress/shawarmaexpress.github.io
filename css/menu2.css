@@ -96,6 +96,11 @@ img {
 	font-size: 14px;
 }
 
+.fa-camera {
+	color: #000;
+	margin-left: 3px;
+}
+
 .plates .ul-container ul {
 	text-align: right;
 }
@@ -204,7 +209,6 @@ em {
 	margin-left: 4px;
 }
 
-
 #imagelightbox {
     position: fixed;
     z-index: 9999;
@@ -215,8 +219,7 @@ em {
 
 
 
-.imagelightbox-arrow
-{
+.imagelightbox-arrow {
 	width: 3.75em; /* 60 */
 	height: 7.5em; /* 120 */
 	background-color: #444;
@@ -228,53 +231,52 @@ em {
 	top: 50%;
 	margin-top: -3.75em; /* 60 */
 }
+
 .imagelightbox-arrow:hover,
-.imagelightbox-arrow:focus
-{
+.imagelightbox-arrow:focus {
 	background-color: #666;
 	background-color: rgba( 0, 0, 0, .75 );
 }
-.imagelightbox-arrow:active
-{
+
+.imagelightbox-arrow:active {
 	background-color: #111;
 }
-	.imagelightbox-arrow-left
-	{
-		left: 2.5em; /* 40 */
-	}
-	.imagelightbox-arrow-right
-	{
-		right: 2.5em; /* 40 */
-	}
-	.imagelightbox-arrow:before
-	{
-		width: 0;
-		height: 0;
-		border: 1em solid transparent;
-		content: '';
-		display: inline-block;
-		margin-bottom: -0.125em; /* 2 */
-	}
-		.imagelightbox-arrow-left:before
-		{
-			border-left: none;
-			border-right-color: #fff;
-			margin-left: -0.313em; /* 5 */
-		}
-		.imagelightbox-arrow-right:before
-		{
-			border-right: none;
-			border-left-color: #fff;
-			margin-right: -0.313em; /* 5 */
-		}
+	
+.imagelightbox-arrow-left {
+	left: 2.5em; /* 40 */
+}
+
+.imagelightbox-arrow-right {
+	right: 2.5em; /* 40 */
+}
+ 
+.imagelightbox-arrow:before {
+	width: 0;
+	height: 0;
+	border: 1em solid transparent;
+	content: '';
+	display: inline-block;
+	margin-bottom: -0.125em; /* 2 */
+}
+	
+.imagelightbox-arrow-left:before {
+	border-left: none;
+	border-right-color: #fff;
+	margin-left: -0.313em; /* 5 */
+}
+
+.imagelightbox-arrow-right:before {
+	border-right: none;
+	border-left-color: #fff;
+	margin-right: -0.313em; /* 5 */
+}
 
 #imagelightbox-loading,
 #imagelightbox-overlay,
 #imagelightbox-close,
 #imagelightbox-caption,
 #imagelightbox-nav,
-.imagelightbox-arrow
-{
+.imagelightbox-arrow {
 	-webkit-animation: fade-in .25s linear;
 	animation: fade-in .25s linear;
 }
@@ -290,18 +292,16 @@ em {
 	}
 
 
-
-
 @media only screen and (max-width: 20em) {/* 320 */
 
 	.imagelightbox-arrow-left
-	{
-		left: 0;
-	}
-	.imagelightbox-arrow-right
-	{
-		right: 0;
-	}
+			{
+				left: 0;
+			}
+			.imagelightbox-arrow-right
+			{
+				right: 0;
+			}
 }
 
 
@@ -337,32 +337,31 @@ em {
 		padding: 20rem 1rem;
 	}
 
-	#container
-	{
+	#container {
 		width: 100%;
 	}
-	#imagelightbox-close
-	{
+	
+	#imagelightbox-close {
 		top: 1.25em; /* 20 */
 		right: 1.25em; /* 20 */
 	}
-	#imagelightbox-nav
-	{
+	
+	#imagelightbox-nav {
 		bottom: 1.25em; /* 20 */
 	}
 
-	.imagelightbox-arrow
-	{
+	
+	.imagelightbox-arrow {
 		width: 2.5em; /* 40 */
 		height: 3.75em; /* 60 */
 		margin-top: -2.75em; /* 30 */
 	}
-	.imagelightbox-arrow-left
-	{
+	
+	.imagelightbox-arrow-left {
 		left: 1.25em; /* 20 */
 	}
-	.imagelightbox-arrow-right
-	{
+	
+	.imagelightbox-arrow-right {
 		right: 1.25em; /* 20 */
 	}
 }

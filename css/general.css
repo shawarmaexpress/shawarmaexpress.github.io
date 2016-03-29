@@ -95,8 +95,13 @@ header {
 
 .home-logo {
 	width: 90%;
-	max-width: 33rem;
-	margin: 5rem auto;
+	max-width: 25rem;
+	margin: 4rem auto;
+}
+
+.shadow {
+	-webkit-filter: drop-shadow( 0px 0px 5px rgba(0,0,0,.4) );
+    filter: drop-shadow( 0px 0px 5px rgba(0,0,0,.4) ); 
 }
 
 #home {
@@ -317,7 +322,7 @@ p {
  	}
 }
 
-@media only screen and (min-width: 38em){ /*608*/
+@media only screen and (min-width: 38em){ /*608 large */
 
 	h2 {
 		font-size: 3.5rem;
@@ -346,7 +351,7 @@ p {
 	}
 
 	.home-logo {
-		margin: 10rem auto;
+		margin: 6rem auto;
 	}
 
 	.contact-us {
@@ -387,7 +392,7 @@ p {
 	}
 
 	.home-logo {
-		margin: 10rem auto;
+		margin: 10rrem auto;
 	}
 
 	.google-maps {
@@ -417,7 +422,7 @@ p {
 	}
 
 	.home-logo {
-		margin: 11rem auto;
+		margin: 9rem auto;
 	}
 
 	.contact-inline {
@@ -430,7 +435,7 @@ p {
 
 @media only screen and (min-width: 100em){ /*1600*/
 	.home-logo {
-		margin: 15rem auto;
+		margin: 11rem auto;
 	}
 }
 
