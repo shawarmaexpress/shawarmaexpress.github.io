@@ -110,6 +110,7 @@ html[xmlns] .flexslider .slides {
 }
 .flex-direction-nav {
   *height: 0;
+  display: none;
 }
 .flex-direction-nav a {
   text-decoration: none;
