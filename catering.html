@@ -3,7 +3,6 @@
 <head>
   <meta charset="utf-8">
   <title>Shawarma Express</title>
-		<link rel="stylesheet" href="flexslider/css/flexslider.css" type="text/css" media="screen" />
 
   		<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700|Roboto:400,500,700,400italic,500italic' rel='stylesheet' type='text/css'>
 
@@ -19,6 +18,9 @@
 		<meta name="handheldfriendly" content="true">
 		<meta name="mobileoptimized" content="240">
 		<meta name="viewport" content="width=device-width,initial-scale=1" >
+
+		<link rel="stylesheet" href="flexslider/flexslider.css" type="text/css" media="screen" />
+
 </head>
 
 <body id="top" class="grid">
@@ -30,7 +32,6 @@
 					<li><a href="index.html">Home</a></li>		
 					<li><a href="menu2.html">Menu</a></li>
 					<li><a href="catering.html">Catering</a></li>
-					<li><a href="http://shawex.ca/#contact-us">Contact Us</a></li>
 					<li><a href="order-now.html">Order Now</a></li>
 				</ul>
 			</nav>
@@ -40,8 +41,20 @@
 
 <!-- ////////////////////////////////////////////////////////////////////////////////////////////// HERO -->
 
-	<div class="menu-hero catering-hero">
-		
+	<div class="unit xs-1 s-1 m-1 l-1" id="home-hero">
+		<div class="flexslider">
+		  <img class=" flex-logo shadow" src="images/flex-logo.svg" alt="Shawarma logo"> 
+		  <ul class="slides">
+		    <li>
+			<img src="images/flex-images/vegan-sandwich-platter-notext.jpg">
+			</li>
+
+			<li>
+			<img src="images/flex-images/shawarma-sandwich-platter-notext.jpg">
+			</li>
+
+		  </ul>
+		</div>
 	</div>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////// CATERING BEGINS -->
@@ -248,6 +261,8 @@
 
 	<script src="js/jquery-2.1.4.min.js"></script>
 	<script src="js/imagelightbox.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="flexslider/jquery.flexslider.js"></script>
 	<script>
 	    $( function()
 	    {
@@ -309,6 +324,11 @@
 					$( '#imagelightbox-loading' ).remove();
 				};
 
+	</script>
+	<script type="text/javascript" charset="utf-8">
+	  $(window).load(function() {
+	    $('.flexslider').flexslider();
+	  });
 	</script>
 
 </body>

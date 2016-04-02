@@ -31,7 +31,7 @@ img {
 	-o-background-size: cover;
 	background-size: cover;
 	background-position: center center;
-	margin-top: 78px;
+	margin-top: 45px;
 
 }
 
@@ -45,7 +45,7 @@ img {
 		-o-background-size: cover;
 		background-size: cover;
 		background-position: center center;
-		margin-top: 78px;
+		margin-top: 45px;
 
 }
 
@@ -57,7 +57,7 @@ img {
 		-o-background-size: cover;
 		background-size: cover;
 		background-position: center center;
-		margin-top: 78px;
+		margin-top: 45px;
 
 }
 
@@ -174,8 +174,6 @@ img {
 }
 
 .chicken-beef li{
-	display: inline-block;
-	width: 45%;
 	border: 2px dotted #000;
 	margin: 2%;
 	text-align: center;
@@ -333,11 +331,17 @@ em {
 		width: 90%;
 	}
 
+
 }
 
 @media only screen and (min-width: 27.125em){ /*434*/
 	.menu-hero {
-		margin-top: 39px;
+		margin-top: 45px;
+	}
+
+	.chicken-beef li{
+		display: inline-block;
+		width: 45%;
 	}
 }
 

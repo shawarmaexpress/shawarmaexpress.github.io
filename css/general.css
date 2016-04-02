@@ -69,9 +69,9 @@ header {
 .nav li:link,
 .nav li:visited {
 	display: inline-block;
-	font-size: 18px;
+	font-size: 17px;
 	text-align: center;
-	padding: 10px 6px;
+	padding: 13px 6px;
 	font-family: 'Roboto Slab', Serif;
 }
 
@@ -124,7 +124,7 @@ header {
 	-o-background-size: cover;
 	background-size: cover;
 	background-position: center center;*/
-	margin-top: 78px;
+	margin-top: 45px;
 }
 
 h1 {
@@ -302,10 +302,6 @@ p {
 }
 
 @media only screen and (min-width: 27.125em){ /*434*/
-	#home-hero {
-		margin-top: 39px;
-	}
-
 	.flex-logo {
 		max-width: 20%;
 	}
