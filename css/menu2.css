@@ -24,7 +24,7 @@ img {
 .menu-hero {
 	padding: 24rem;
 	overflow: hidden;
-	background-image: url(../images/menu/shawarma-sandwiches-notext.jpg);
+	background-image: url(../images/menu/no-text/shawarma-sandwiches-notext.jpg);
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -38,7 +38,7 @@ img {
 .catering-hero {
 		width: 100%;
 		height: 100%;
-		background-image: url(../images/menu/veggie-deal-notext.jpg);
+		background-image: url(../images/menu/no-text/veggie-deal-notext.jpg);
 		background-repeat: no-repeat;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -50,7 +50,7 @@ img {
 }
 
 .order-hero {
-		background-image: url(../images/menu/shawarma-rice-notext.jpg);
+		background-image: url(../images/menu/no-text/shawarma-rice-notext.jpg);
 		background-repeat: no-repeat;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
