@@ -79,6 +79,10 @@ img {
 	background-color: #000;
 }
 
+.just-eat-button {
+	height: 32px;
+}
+
 .row-container {
 	margin: 1.5rem 0;
 }
@@ -314,6 +318,7 @@ em {
 	}
 
 
+
 @media only screen and (max-width: 20em) {/* 320 */
 
 	.imagelightbox-arrow-left
@@ -360,6 +365,13 @@ em {
 		padding-left: 20px;
 	}
 
+}
+
+@media only screen and (min-width: 38em){ /*608 large */
+
+ 	.just-eat-button {
+ 		height: 34px;
+ 	}
 }
 
 @media only screen and (max-width: 41.250em) { /* 660 */
