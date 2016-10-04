@@ -71,8 +71,9 @@ header {
 	display: inline-block;
 	font-size: 17px;
 	text-align: center;
-	padding: 13px 6px;
+	padding: 9px 4px;
 	font-family: 'Roboto Slab', Serif;
+	vertical-align: middle;
 }
 
 .nav a, 
@@ -87,6 +88,10 @@ header {
 .nav a:active{
 	color: #E9B74B;
 	
+}
+
+.just-eat-button {
+	height: 32px;
 }
 
 
@@ -105,10 +110,10 @@ header {
 }
 
 .flex-logo {
-	width: 30%;
+	width: 20%;
 	position: absolute;
 	z-index: 999;
-	top: 4%;
+	top: 8%;
 	left: 5%;
 }
 
@@ -302,8 +307,17 @@ p {
 }
 
 @media only screen and (min-width: 27.125em){ /*434*/
-	.flex-logo {
-		max-width: 20%;
+	
+
+	.nav li,
+	.nav li:link,
+	.nav li:visited {
+		display: inline-block;
+		font-size: 17px;
+		text-align: center;
+		padding: 10px 6px;
+		font-family: 'Roboto Slab', Serif;
+		vertical-align: middle;
 	}
 }
 
@@ -327,6 +341,10 @@ p {
 	.google-maps {
 		padding-bottom: 60%;
  	}
+
+ 	.flex-logo {
+		max-width: 20%;
+	}
 }
 
 @media only screen and (min-width: 38em){ /*608 large */
@@ -369,6 +387,10 @@ p {
 
 	.google-maps {
 		padding-bottom: 50%;
+ 	}
+
+ 	.just-eat-button {
+ 		height: 34px;
  	}
 
 }
