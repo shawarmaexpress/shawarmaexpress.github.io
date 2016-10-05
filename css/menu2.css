@@ -19,7 +19,7 @@ body {
 }
 
 .menu-hero {
-	padding: 24rem;
+	padding: 13rem;
 	overflow: hidden;
 	background-image: url(../images/menu/no-text/shawarma-sandwiches-notext.jpg);
 	background-repeat: no-repeat;
@@ -29,12 +29,11 @@ body {
 	background-size: cover;
 	background-position: center center;
 	margin-top: 45px;
-
 }
 
 .catering-hero {
 		width: 100%;
-		height: 100%;
+		padding: 13rem;
 		background-image: url(../images/menu/no-text/veggie-deal-notext.jpg);
 		background-repeat: no-repeat;
 		-webkit-background-size: cover;
@@ -367,8 +366,13 @@ em {
 @media only screen and (min-width: 38em){ /*608 large */
 
  	.just-eat-button {
- 		height: 34px;
+ 		height: 35px;
  	}
+
+ 	.menu-hero {
+		padding: 22rem;
+	}
+
 }
 
 @media only screen and (max-width: 41.250em) { /* 660 */
