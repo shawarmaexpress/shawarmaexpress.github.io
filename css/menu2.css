@@ -19,43 +19,54 @@ body {
 }
 
 .menu-hero {
-	padding: 13rem;
+	padding: 10rem;
 	overflow: hidden;
-	background-image: url(../images/menu/no-text/shawarma-sandwiches-notext.jpg);
+	background-image: url(../images/menu/no-text/hummus+-notext.jpg);
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	background-position: center center;
-	margin-top: 45px;
+	margin-top: 39px;
 }
 
 .catering-hero {
-		width: 100%;
-		padding: 13rem;
-		background-image: url(../images/menu/no-text/veggie-deal-notext.jpg);
-		background-repeat: no-repeat;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		background-position: center center;
-		margin-top: 45px;
+	width: 100%;
+	padding: 10rem;
+	background-image: url(../images/menu/no-text/veggie-deal-notext.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	margin-top: 39px;
 
 }
 
 .order-hero {
-		background-image: url(../images/menu/no-text/shawarma-rice-notext.jpg);
-		background-repeat: no-repeat;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		background-position: center center;
-		margin-top: 45px;
+	padding: 10rem !important;
+	background-image: url(../images/menu/no-text/falafel-piece-notext.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	margin-top: 39px;
 
 }
+
+
+/*.order-hero h2 {
+	padding: 10rem !important; 
+	font-size: 4rem;
+	color: #fff;
+	text-align: center;
+	background-color: rgba(0,0,0,0.3);
+	margin-bottom: 0;
+}*/
 
 .menu-nav {
 	width: 90%;
@@ -75,9 +86,6 @@ body {
 	background-color: #000;
 }
 
-.just-eat-button {
-	height: 32px;
-}
 
 .row-container {
 	margin: 1.5rem 0;
@@ -231,6 +239,26 @@ em {
 	margin-left: 4px;
 }
 
+/*///////////////////////////////////////////////////////////////////////////////////////////// Order page */
+
+.order-now .title{
+	margin-bottom: 2rem;
+
+}
+
+.order-blocks li div{
+	border: 2px solid;
+	border-color: #000;
+    border-radius: 25px;
+	text-align:	center;
+	padding: 1.5rem;
+}
+
+.order-li {
+	list-style-type: disc;
+	list-style-position: inside;
+}
+
 #imagelightbox {
     position: fixed;
     z-index: 9999;
@@ -337,7 +365,7 @@ em {
 
 @media only screen and (min-width: 27.125em){ /*434*/
 	.menu-hero {
-		margin-top: 45px;
+		margin-top: 39px;
 	}
 
 	.chicken-beef li{
@@ -365,13 +393,9 @@ em {
 
 @media only screen and (min-width: 38em){ /*608 large */
 
- 	.just-eat-button {
- 		height: 35px;
- 	}
-
- 	.menu-hero {
+ 	/*.menu-hero {
 		padding: 22rem;
-	}
+	}*/
 
 }
 

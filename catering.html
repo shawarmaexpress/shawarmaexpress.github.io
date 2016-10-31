@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Shawarma Express</title>
+  		<link rel="stylesheet" href="flexslider/flexslider.css" type="text/css" media="screen" />
 
   		<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700|Roboto:400,500,700,400italic,500italic' rel='stylesheet' type='text/css'>
 
@@ -19,8 +20,6 @@
 		<meta name="mobileoptimized" content="240">
 		<meta name="viewport" content="width=device-width,initial-scale=1" >
 
-		<link rel="stylesheet" href="flexslider/flexslider.css" type="text/css" media="screen" />
-
 </head>
 
 <body id="top" class="grid">
@@ -32,7 +31,7 @@
 					<li><a href="index.html">Home</a></li>		
 					<li><a href="menu2.html">Menu</a></li>
 					<li><a href="catering.html">Catering</a></li>
-					<li><a target="_blank" href="https://www.just-eat.ca/restaurants-shawarma-express-ottawa-slater/menu?utm_source=shawarma-express-ottawa-slater&utm_medium=referral&utm_campaign=b2b-int" title="shawarma-express-ottawa-slater Food Delivery"><img class="just-eat-button" src="http://www.just-eat.ca/blog/wp-content/uploads/300x90.png" border="0" alt="shawarma-express-ottawa-slater Order Online"></a></li>				
+					<li><a href="order-now.html">Order Now</a></li>				
 					</ul>
 			</nav>
 		</div>
@@ -248,6 +247,16 @@
 
 			</div> <!-- END OF SECTION -->
 
+			<div id="disclaimer" class="disclaimer">
+				<ul>
+					<li><i class="vegan fa fa-asterisk"></i>Vegan</li>
+					<li><i class="vegi fa fa-asterisk"></i>Vegetarian</li>
+					<li><i class="fa fa-exclamation"></i>Tahini and Falafel contain sesame seed</li>
+					<li>All prices are subject to HST</li>
+
+				</ul>
+			</div>
+
 			</div>
 
 <!--/////////////////////////////////////////////////////////////////// FOOTER -->
@@ -276,8 +285,6 @@
 
 	<script src="js/jquery-2.1.4.min.js"></script>
 	<script src="js/imagelightbox.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-	<script src="flexslider/jquery.flexslider.js"></script>
 	<script>
 	    $( function()
 	    {
@@ -322,8 +329,7 @@
 
 
 				var selectorG = 'a[data-imagelightbox="g"]';
-			var instanceG = $( selectorG ).imageLightbox(
-			{
+				var instanceG = $( selectorG ).imageLightbox( {
 				onStart:		function(){ arrowsOn( instanceG, selectorG ); },
 				onEnd:			function(){ arrowsOff(); activityIndicatorOff(); },
 				onLoadStart: 	function(){ activityIndicatorOn(); },

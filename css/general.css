@@ -25,6 +25,7 @@ body {
 	line-height: 1.2rem;
 	overflow-x: hidden;
 	display: block;
+	
 }
 
 .img-flex {
@@ -125,7 +126,7 @@ header {
 	-o-background-size: cover;
 	background-size: cover;
 	background-position: center center;*/
-	margin-top: 45px;
+	margin-top: 37px;
 }
 
 h1 {
@@ -135,10 +136,6 @@ h1 {
 	text-transform: uppercase;
 	line-height: 2rem;
 	margin: 1rem 2rem;
-}
-
-.just-eat-button {
- 	height: 32px;
 }
 
 
@@ -342,7 +339,7 @@ p {
  	}
 
  	.flex-logo {
-		max-width: 20%;
+		max-width: 17%;
 	}
 }
 
@@ -386,10 +383,6 @@ p {
 
 	.google-maps {
 		padding-bottom: 50%;
- 	}
-
- 	.just-eat-button {
- 		height: 35px;
  	}
 
 }
