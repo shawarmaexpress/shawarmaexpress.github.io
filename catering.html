@@ -23,16 +23,20 @@
 </head>
 
 <body id="top" class="grid">
-	<header class="unit xs-1 s-1 m1 l-1 xl-1">
+	<header id="fixed-nav" class="unit xs-1 s-1 m1 l-1 xl-1">
 
-		<div id="fixed-nav">
+		<div class="fixed-hours">
+			<p id="fixed-hours" class="micro"></p>
+		</div>
+
+		<div>
 			<nav class="nav">
 				<ul>
 					<li><a href="index.html">Home</a></li>		
 					<li><a href="menu2.html">Menu</a></li>
 					<li><a href="catering.html">Catering</a></li>
 					<li><a href="order-now.html">Order Now</a></li>				
-					</ul>
+				</ul>
 			</nav>
 		</div>
 
@@ -283,6 +287,9 @@
 	</footer>
 
 <!-- ///////////////////////////////////////////////////////////////////////// script -->
+
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/hours.js"></script>
 
 	<script src="js/jquery-2.1.4.min.js"></script>
 	<script src="js/imagelightbox.js"></script>

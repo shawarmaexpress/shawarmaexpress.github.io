@@ -16,7 +16,7 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1" >
 
 		<!--favicons-->
-		<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+		<!-- <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
 		<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
 		<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
@@ -32,14 +32,19 @@
 		<link rel="manifest" href="favicon/manifest.json">
 		<meta name="msapplication-TileColor" content="#ffffff">
 		<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
-		<meta name="theme-color" content="#ffffff">
+		<meta name="theme-color" content="#ffffff"> -->
 		
 </head>
 
 <body id="top">
-	<header>
 
-		<div id="fixed-nav">
+	<header id="fixed-nav">
+		
+		<div class="fixed-hours">
+			<p id="fixed-hours" class="micro"></p>
+		</div>
+
+		<div>
 			<nav class="nav">
 				<ul>
 					<li><a href="#top">Home</a></li>		
@@ -49,7 +54,7 @@
 				</ul>
 			</nav>
 		</div>
-
+		
 	</header>
 
 	<!-- <div class="hero">
@@ -163,10 +168,9 @@
 		<div class="footer-main">
 			<div class="hours unit xs-1 s-1-2 m-1-2 l-1-2 xl-1-2">
 				<p>Hours:
-				<br>Mon-Thu: 10:30am to 10pm
-				<br>Fri: 10:30am to 12am
-				<br>Sat: 11am to 12am
-				<br>Sun: 11am to 10pm
+				<br>Mon-Tue: 10:30am to 11pm
+				<br>Wed-Fri: 10:30am to 1am 
+				<br>Sat-Sun: 11am to 1am
 				<br>(Holiday hours may vary)
 			</div>
 
@@ -179,13 +183,17 @@
 
 	</footer>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/hours.js"></script>
+
 	<script src="flexslider/jquery.flexslider.js"></script>
 	<script type="text/javascript" charset="utf-8">
 	  $(window).load(function() {
 	    $('.flexslider').flexslider();
 	  });
 	</script>
+
+	
 
 </body>
 </html>
