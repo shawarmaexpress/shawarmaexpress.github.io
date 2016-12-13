@@ -128,6 +128,17 @@ body {
 	font-size: 14px;
 }
 
+.description-ul ul {
+	text-align: left;
+	list-style-type: circle;
+	margin-left: 40px;
+	font-size: 15px;
+}
+
+.margin-top {
+	margin-top: 2rem;
+}
+
 .fa-camera {
 	color: #000;
 	margin-left: 3px;
@@ -147,7 +158,7 @@ body {
 .subsection-line {
 	color: #000;
 	background-color: #000;
-	height: 2px;
+	height: 1px;
 }
 
 .section-intro {
@@ -343,6 +354,7 @@ em {
 
 
 
+
 @media only screen and (max-width: 20em) {/* 320 */
 
 	.imagelightbox-arrow-left
@@ -387,6 +399,10 @@ em {
 
 	.indent {
 		padding-left: 20px;
+	}
+
+	.description-ul ul {
+		text-align: left;
 	}
 
 }
