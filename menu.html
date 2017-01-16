@@ -14,11 +14,25 @@
 		<link href="css/general.css" rel="stylesheet">
 		<link href="css/typography.css" rel="stylesheet">
 		<link href="css/font-awesome.min.css" rel="stylesheet" >
-		<link href="css/menu2.css" rel="stylesheet">
+		<link href="css/menu.css" rel="stylesheet">
 
 		<meta name="handheldfriendly" content="true">
 		<meta name="mobileoptimized" content="240">
-		<meta name="viewport" content="width=device-width,initial-scale=1" >
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+
+		<!--favicons-->
+		<link rel="shortcut icon" href="favicon.ico">
+
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-85257330-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
 </head>
 
 <body id="top">
@@ -33,7 +47,7 @@
 			<nav class="nav">
 				<ul>
 					<li><a href="index.html">Home</a></li>		
-					<li><a href="menu2.html">Menu</a></li>
+					<li><a href="menu.html">Menu</a></li>
 					<li><a href="catering-menu.html">Catering</a></li>
 					<li><a href="order-now.html">Order Now</a></li>				
 				</ul>
@@ -86,7 +100,7 @@
 			<hr class="section-line">
 
 			<div class="section-intro">
-				<p>Our sandwich sizes are two: Small (7") and Large (9"). The following are our <span class="script">recommended traditional toppings</span> for each sandwich, but feel free to custom dress your sandwich!</p>
+				<p>Our sandwich sizes are two: Small (7") and Large (9"). The following are our <span class="script">recommended traditional toppings</span> for each sandwich, but feel free to custom dress your sandwich! <strong><a href="menu.html/#dietary-info">Click here for dietary info</a></strong></p>
 			</div>
 
 			<div class="grid row-container">
@@ -915,15 +929,34 @@
 
 		</div> <!-- END OF SECTION -->
 
-		<div id="disclaimer" class="disclaimer">
-			<ul>
-				<li><i class="vegan fa fa-asterisk"></i>Vegan</li>
-				<li><i class="vegi fa fa-asterisk"></i>Vegetarian</li>
-				<li><i class="fa fa-exclamation"></i>Tahini and Falafel contain sesame seed</li>
-				<li>All prices are subject to HST</li>
-				<li>Prices are subject to change without notice</li>
+		<div id="disclaimer" class="menu-footer">
+			
+			<div class="disclaimer">
+				<ul>
+					<li><i class="vegan fa fa-asterisk"></i>Vegan</li>
+					<li><i class="vegi fa fa-asterisk"></i>Vegetarian</li>
+					<li><i class="fa fa-exclamation"></i>Tahini and Falafel contain sesame seed</li>
+					<li>All prices are subject to HST</li>
+					<li>Prices are subject to change without notice</li>
+				</ul>
+			</div>
 
-			</ul>
+			<div id="dietary-info">
+				<ul >
+					<li><strong>The following ingredients are found in the following food items:</strong></li>
+						<li>1. Sesame seed: Beef Shawarma meat, and Tahini (sesame sauce)</li>
+						<li>2. Wheat: Tabbouli, Falafel, Donair meat, Pita Bread, and Pita Chips</li>
+						<li>3. Milk: Donair Sauce (sweet sauce)</li>
+						<li>4. Egg: Garlic Sauce</li>
+						<li>5. Soybean: Salad dressing</li>
+						<li>6. Nuts: Baklawa</li>
+				</ul>
+				<ul>
+					<li><strong>Note:</strong><li>
+						<li>1. Vegan (no egg, no dairy): Salad Dressing, Hummus, Tahini</li>
+						<li>2. Vegetarian (traces of egg, no dairy): Garlic Sauce</li>
+				</ul>
+			</div>
 		</div>
 
 	</div>
@@ -945,6 +978,7 @@
 			<div class="copyright unit xs-1 s-1-2 m-1-2 l-1-2 xl-1-2">
 				<a href="http://www.facebook.com/shawarma.ex"><i class="fa fa-facebook-official"></i>Facebook</a>
 				<a href="http://www.yelp.com/biz/shawarma-express-ottawa"><i class="fa fa-yelp"></i>Yelp</a>
+				<a target="_blank" href="https://www.instagram.com/shawarma_express_ottawa/"><i class="fa fa-instagram"></i>Instagram</a>
 				<p>© Shawarma Express 2017</a></p> 
 			</div>
 		</div>

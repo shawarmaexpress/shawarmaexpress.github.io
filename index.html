@@ -16,24 +16,18 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1" >
 
 		<!--favicons-->
-		<!-- <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
-		<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
-		<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
-		<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
-		<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
-		<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
-		<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
-		<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
-		<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
-		<link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-		<link rel="manifest" href="favicon/manifest.json">
-		<meta name="msapplication-TileColor" content="#ffffff">
-		<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
-		<meta name="theme-color" content="#ffffff"> -->
+		<link rel="shortcut icon" href="favicon.ico">
 		
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-85257330-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
 </head>
 
 <body id="top">
@@ -48,7 +42,7 @@
 			<nav class="nav">
 				<ul>
 					<li><a href="#top">Home</a></li>		
-					<li><a href="menu2.html">Menu</a></li>
+					<li><a href="menu.html">Menu</a></li>
 					<li><a href="catering-menu.html">Catering</a></li>
 					<li><a href="order-now.html">Order Now</a></li>
 				</ul>
@@ -69,45 +63,56 @@
 		<div class="flexslider">
 		  <img class=" flex-logo shadow" src="images/flex-logo.svg" alt="Shawarma logo"> 
 		  <ul class="slides">
+
 			<li>
-			<img src="images/flex-images/chicken-plate-notext.jpg">
+			<img src="images/flex-images/chicken-plate-notext.jpg" alt="chicken-plate">
 			</li>
 
 			<li>
-			<img src="images/flex-images/falafel-piece-notext.jpg">
+			<img src="images/flex-images/donair-plate-notext.jpg" alt="donair-plate">
 			</li>
 
 			<li>
-			<img src="images/flex-images/chicken-salad-notext.jpg">
+			<img src="images/flex-images/falafel-piece-notext.jpg" alt="falafel-piece">
 			</li>
 
 			<li>
-			<img src="images/flex-images/donair-plate-notext.jpg">
+			<img src="images/flex-images/falafel-plate-notext.jpg" alt="falafel-plate">
 			</li>
 
 			<li>
-			<img src="images/flex-images/falafel-plate-notext.jpg">
+			<img src="images/flex-images/falafel-tray-notext.jpg" alt="falafel-tray">
 			</li>
 
 			<li>
-			<img src="images/flex-images/potato-salad-notext.jpg">
+			<img src="images/flex-images/hummus+-notext.jpg" alt="hummus+">
 			</li>
 
 			<li>
-			<img src="images/flex-images/shawarma-deal-notext.jpg">
+			<img src="images/flex-images/potato-salad-notext.jpg" alt="potato-salad">
 			</li>
 
 			<li>
-			<img src="images/flex-images/shawarma-sandwiches-notext.jpg">
+			<img src="images/flex-images/shawarma-sandwich-platter-notext.jpg" alt="shawarma-sandwich-platter">
 			</li>
 
 			<li>
-			<img src="images/flex-images/veggie-sandwiches-notext.jpg">
+			<img src="images/flex-images/shawarma-sandwiches-notext.jpg" alt="shawarma-sandwiches">
 			</li>
 
 			<li>
-			<img src="images/flex-images/falafel-salad-notext.jpg">
+			<img src="images/flex-images/shawarma-tray-notext.jpg" alt="shawarma-tray">
 			</li>
+
+			<li>
+			<img src="images/flex-images/vegan-sandwich-platter-notext.jpg" alt="vegan-sandwich-platter">
+			</li>
+
+			<li>
+			<img src="images/flex-images/veggie-sandwiches-notext.jpg" alt="veggie-sandwiches">
+			</li>
+
+
 
 		  </ul>
 		</div>
@@ -127,11 +132,11 @@
 				<div class="unit xs-1 s-1 m-1 l-1 xl-1">
 						<p>We are a family owned and run Lebanese restaurant specializing in shawarma sandwiches and dishes. A collection of home recipes bonding three generations of family over food is what started it all!</p>
 
-						<p>Did you enjoy the music we play at our restaurant? You can listen to it here:</p>
+						<!-- <p>Did you enjoy the music we play at our restaurant? You can listen to it here:</p>
 
 						<div class="youtube">
 							<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLJ8NXTA_Yc_IWDoz-52qnJJOZxMSBYJuC" frameborder="0" allowfullscreen></iframe>
-						</div>
+						</div> -->
 		 		</div>
 
 
@@ -177,6 +182,7 @@
 			<div class="copyright unit xs-1 s-1-2 m-1-2 l-1-2 xl-1-2">
 				<a target="_blank" href="http://www.facebook.com/shawarmaex"><i class="fa fa-facebook-official"></i>Facebook</a>
 				<a target="_blank" href="http://www.yelp.com/biz/shawarma-express-ottawa"><i class="fa fa-yelp"></i>Yelp</a>
+				<a target="_blank" href="https://www.instagram.com/shawarma_express_ottawa/"><i class="fa fa-instagram"></i>Instagram</a>
 				<p>© Shawarma Express 2017</a></p> 
 			</div>
 		</div>
