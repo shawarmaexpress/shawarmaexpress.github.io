@@ -148,6 +148,9 @@ body {
 	text-align: right;
 }
 
+.dietary-info {
+	text-align: center;
+}
 
 .section-line {
 	color: #000;
@@ -196,8 +199,12 @@ body {
 	border: 2px dotted #000;
 	margin: 2%;
 	text-align: center;
-	padding: 12px;
+	padding: 15px;
 
+}
+
+.chicken-beef p {
+	margin-bottom: 0;
 }
 
 .menu-footer {
@@ -277,7 +284,7 @@ em {
 }
 
 .order-li {
-	list-style-type: disc;
+	list-style-type: none;
 	list-style-position: inside;
 }
 
