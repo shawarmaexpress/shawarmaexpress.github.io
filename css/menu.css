@@ -179,8 +179,8 @@ body {
 
 .anchor{
   display: block;
-  height: 40px; /*same height as header*/
-  margin-top: -40px; /*same height as header*/
+  height: 74px; /*same height as header*/
+  margin-top: -74px; /*same height as header*/
   visibility: hidden;
 }
 
