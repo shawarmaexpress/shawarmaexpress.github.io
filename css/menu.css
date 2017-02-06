@@ -68,6 +68,19 @@ body {
 	margin-bottom: 0;
 }*/
 
+.flex-logo2 {
+	width: 10em;
+	position: absolute;
+	z-index: 999;
+	top: 100px;
+	left: 80px;
+}
+
+.shadow {
+	-webkit-filter: drop-shadow( 0px 0px 20px rgba(0,0,0,1) );
+    filter: drop-shadow( 0px 0px 20px rgba(0,0,0,1) ); 
+}
+
 .menu-nav {
 	width: 90%;
 	margin: 20px auto 0;
@@ -126,6 +139,10 @@ body {
 	margin: 0 3px 5px 0;
 	border: 1px solid #000;
 	font-size: 14px;
+}
+
+.description-ul {
+	padding: 20px 0 0 0;
 }
 
 .description-ul ul {
@@ -288,6 +305,10 @@ em {
 	list-style-position: inside;
 }
 
+.order-li li {
+	margin-top: 1rem;
+}
+
 .order-li h2 {
 	line-height: 1.5em;
 }
@@ -437,9 +458,9 @@ em {
 
 @media only screen and (min-width: 38em){ /*608 large */
 
- 	/*.menu-hero {
-		padding: 22rem;
-	}*/
+ 	.description-ul {
+		padding: 20px 0 0 40px;
+	}
 
 }
 
