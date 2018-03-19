@@ -456,13 +456,13 @@ em {
 
 }
 
-/*@media only screen and (min-width: 38em){ 608 large 
+@media only screen and (min-width: 38em){ /*608 large */
 
  	.description-ul {
 		padding: 0 0 0 40px;
 	}
 
-}*/
+}
 
 @media only screen and (max-width: 41.250em) { /* 660 */
 
